@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Vincent Kipyegon, Geospatial Engineer and GIS Analyst specializing in flood risk modeling, remote sensing, and web mapping.">
+    <meta name="keywords" content="Vincent Kipyegon, Geospatial Engineer, GIS Analyst, Remote Sensing, Google Earth Engine, ArcGIS, QGIS">
+    <title>Vincent Kipyegon - Geospatial Engineer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #2c5282;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        nav {
+            background: #edf2f7;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1.5rem;
+            text-decoration: none;
+            color: #2c5282;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 1rem;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        .project-card {
+            border: 1px solid #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .project-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            background: #2c5282;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 0.5rem;
+        }
+        .btn:hover {
+            background: #2b6cb0;
+        }
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vincent Kipyegon</h1>
+        <p>Geospatial Engineer | GIS Analyst | Remote Sensing Specialist</p>
+        <p>Nairobi, Kenya</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="hero">
+            <img src="images/profile.jpg" alt="Profile Picture">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Vincent Kipyegon, a passionate Geospatial Engineer delivering data-driven solutions for climate action, agriculture, and urban resilience.</p>
+            <a href="cv.pdf" class="btn" download>Download My CV</a>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a solutions-driven Geospatial Engineering student at the University of Nairobi with expertise in spatial data analysis, flood risk modeling, remote sensing, and dashboard development. Using tools like Google Earth Engine, ArcGIS Pro, QGIS, and Blender, I deliver actionable geospatial insights for NGOs, startups, and academic partners.</p>
+            <p>As a freelancer and research contributor, I’ve worked on projects ranging from predictive modeling to visualization and mapping, driving impact in climate action and urban resilience.</p>
+            <h3>Skills & Tools</h3>
+            <ul>
+                <li><strong>Geospatial Tools</strong>: ArcGIS Pro, QGIS, AutoCAD, SAGA GIS, Blender, Google Earth Engine (JavaScript & Python), Photogrammetry</li>
+                <li><strong>Programming & Tools</strong>: Python, Git, Jupyter Notebook, HTML/CSS (learning), Excel (Advanced)</li>
+                <li><strong>Data & Visualization</strong>: Power BI, Tableau, Google Sheets, Data Scraping, Geocoding, Spatial Modelling</li>
+                <li><strong>Web Mapping & Remote Sensing</strong>: Sentinel-1, Sentinel-2, Landsat, Web Apps (GEE)</li>
+                <li><strong>Soft Skills</strong>: Report Writing, Client Communication, Proposal Writing, Time Management, Teamwork</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Flood Risk Prediction Model – Baringo County</h3>
+                    <img src="images/flood_baringo.jpg" alt="Flood Risk Map">
+                    <p>Developed a predictive flood model using Sentinel-1 and Google Earth Engine, integrating building exposure analysis. Built a scalable dashboard for disaster management.</p>
+                    <p><strong>Tools</strong>: Google Earth Engine, Sentinel-1, ArcGIS Pro, QGIS</p>
+                    <p><strong>Year</strong>: 2025</p>
+                    <a href="https://github.com/Pyexxy/flood-baringo" class="btn">View Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>Mangrove Vegetation & Temperature Correlation – Lamu County</h3>
+                    <img src="images/mangrove_lamu.jpg" alt="Mangrove Analysis Map">
+                    <p>Analyzed NDVI and land surface temperature using Sentinel-2 and MODIS LST. Secured 2nd place in the GESA GIS Week Visualization Challenge.</p>
+                    <p><strong>Tools</strong>: Google Earth Engine, Sentinel-2, MODIS LST</p>
+                    <p><strong>Year</strong>: 2024</p>
+                    <a href="https://github.com/Pyexxy/mangrove-lamu" class="btn">View Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>Urban Growth Analysis – Eldoret City</h3>
+                    <img src="images/urban_eldoret.jpg" alt="Urban Growth Map">
+                    <p>Detected urban sprawl patterns using Sentinel-2 and Jupyter Notebook. Awarded Best Project at RCMRD’s Mjini Hackathon.</p>
+                    <p><strong>Tools</strong>: Jupyter Notebook, DUNIA, Sentinel-2</p>
+                    <p><strong>Year</strong>: 2024</p>
+                    <a href="https://github.com/Pyexxy/urban-eldoret" class="btn">View Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>Predictive Maize Yield Model – Trans Nzoia County</h3>
+                    <img src="images/maize_transnzoia.jpg" alt="Maize Yield Map">
+                    <p>Modeled maize yield impacts using MODIS, CHIRPS, and WorldPop data to support agricultural planning.</p>
+                    <p><strong>Tools</strong>: Google Earth Engine, MODIS, CHIRPS</p>
+                    <p><strong>Year</strong>: 2025</p>
+                    <a href="https://github.com/Pyexxy/maize-transnzoia" class="btn">View Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>Topographic Map Series – VGI Data</h3>
+                    <img src="images/topographic_vgi.jpg" alt="Topographic Map">
+                    <p>Created a 1:12,500-scale topographic map series using OSM and SRTM data, with contours and land cover layers.</p>
+                    <p><strong>Tools</strong>: QGIS, SRTM, OpenStreetMap, ArcMap</p>
+                    <p><strong>Year</strong>: 2025</p>
+                    <a href="https://github.com/Pyexxy/topographic-vgi" class="btn">View Code</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:vincentkipyegon02@gmail.com">vincentkipyegon02@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/pyexxy">linkedin.com/in/pyexxy</a></p>
+            <p>GitHub: <a href="https://github.com/Pyexxy">github.com/Pyexxy</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 Vincent Kipyegon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
